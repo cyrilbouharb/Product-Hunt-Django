@@ -143,3 +143,9 @@ STATIC_ROOT = BASE_DIR / 'static'
 
 # When someone try to access an image where they can access this image on the http link what we write after /
 STATIC_URL = '/static/'
+
+# I created this media goes inside a new folder created named media copy paste from database
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# When someone try to access an image where they can access this image on the http link what we write after /
+MEDIA_URL = '/media/'
